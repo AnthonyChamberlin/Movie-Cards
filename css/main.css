@@ -74,13 +74,13 @@ body {
   text-align: center;
   color: black;
   background-color: gold;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   margin-top:180px;
   border-radius: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 /* -- Movie Images -- */
@@ -155,4 +155,21 @@ body {
   background-repeat: no-repeat;
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
+}
+
+
+/* -- Star Rating Styles -- */
+
+.all-stars {
+  text-align: center;
+  width: 100%;
+}
+
+.all-stars li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.all-stars li i {
+  color: #ccc;
 }
