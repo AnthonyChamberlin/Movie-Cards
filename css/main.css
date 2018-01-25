@@ -40,7 +40,6 @@ body {
   left: 0%;
   width: 50%;
   height: 100%;
-  border: 1px solid red;
 }
 
 .movie-box-right {
@@ -49,7 +48,6 @@ body {
   right: 0%;
   width: 50%;
   height: 100%;
-  border: 1px solid blue;
 }
 
 .movie-box-left li {
@@ -62,8 +60,44 @@ body {
   text-align: center;
 }
 
+.movie-runtime {
+  text-align: center;
+  color: #fff;
+  background-color: dodgerblue;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+
+.movie-rating {
+  text-align: center;
+  color: grey;
+  background-color: gold;
+  width: 100px;
+  margin: 0 auto;
+  margin-top:180px;
+  border-radius: 25px;
+}
+
 .goodfellas-image {
   background-image: url('https://static.rogerebert.com/uploads/movie/movie_poster/goodfellas-1990/large_pDTuWp3jRcGbfWn0Ic6XZ0M0DwP.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.stepbrothers-image {
+  background-image: url('https://images-na.ssl-images-amazon.com/images/M/MV5BZjZiNzU0YWQtYTA4OS00OTYwLTk4ZmYtNGNmZjU3YTFjMjM5XkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UX182_CR0,0,182,268_AL_.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.skyfall-image {
+  background-image: url('https://vignette.wikia.nocookie.net/jamesbond/images/d/dc/Skyfall_Bond_Poster.jpg/revision/latest?cb=20120928004757');
   background-size: cover;
   background-repeat: no-repeat;
   border-top-right-radius: 9px;
