@@ -70,15 +70,20 @@ body {
   border-radius: 25px;
 }
 
-.movie-rating {
+.movie-release {
   text-align: center;
-  color: grey;
+  color: black;
   background-color: gold;
-  width: 100px;
+  width: 90%;
   margin: 0 auto;
   margin-top:180px;
   border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
 }
+
+/* -- Movie Images -- */
 
 .goodfellas-image {
   background-image: url('https://static.rogerebert.com/uploads/movie/movie_poster/goodfellas-1990/large_pDTuWp3jRcGbfWn0Ic6XZ0M0DwP.jpg');
@@ -98,6 +103,54 @@ body {
 
 .skyfall-image {
   background-image: url('https://vignette.wikia.nocookie.net/jamesbond/images/d/dc/Skyfall_Bond_Poster.jpg/revision/latest?cb=20120928004757');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.anchorman-image {
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/6/64/Movie_poster_Anchorman_The_Legend_of_Ron_Burgundy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.hotfuzz-image {
+  background-image: url('http://i2.listal.com/image/255009/600full-hot-fuzz-cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.jumpstreet-image {
+  background-image: url('https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3NzQ3OTg3NF5BMl5BanBnXkFtZTcwMjk5OTcxNw@@._V1_UX182_CR0,0,182,268_AL_.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.thisistheend-image {
+  background-image: url('https://images-na.ssl-images-amazon.com/images/M/MV5BMTQxODE3NjM1Ml5BMl5BanBnXkFtZTcwMzkzNjc4OA@@._V1_UX182_CR0,0,182,268_AL_.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.tropicthunder-image {
+  background-image: url('http://is1.mzstatic.com/image/thumb/Video1/v4/5d/4d/37/5d4d371b-5136-4123-deee-d720241d93ec/source/1200x630bb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.theotherguys-image {
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/71Ft68fi2QL._SY445_.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-top-right-radius: 9px;
