@@ -1,19 +1,16 @@
-function starClick(a) {
-    var element;
-    if (a == 1) {
-        element = document.getElementById('star_1');
-        element.style.color = "#FF912C";
-    } else if (a == 2) {
-        element = document.getElementById('star_2');
-        element.style.color = "#FF912C";
-    } else if (a == 3) {
-        element = document.getElementById('star_3');
-        element.style.color = "#FF912C";
-    } else if (a == 4) {
-        element = document.getElementById('star_4');
-        element.style.color = "#FF912C";
-    } else if (a == 5) {
-      element = document.getElementById('star_5');
-      element.style.color = "#FF912C";
-    } else return;
+function rateClick1(button1) {
+    var x = button1.value;
+    document.getElementById("result1").innerHTML = "Your Rating: " + x + "/10";
+}
+
+function rateClick2(button2) {
+    var y = button2.value;
+    document.getElementById("result2").innerHTML = "Your Rating: " + y + "/10";
+}
+
+function rateClick3(button3) {
+    var z = button3.value;
+    var result = document.getElementById("result3");
+    result.innerHTML = "Your Rating: " + z + "/10";
+
 }
