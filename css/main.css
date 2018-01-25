@@ -160,16 +160,26 @@ body {
 
 /* -- Star Rating Styles -- */
 
-.all-stars {
+#stars {
   text-align: center;
   width: 100%;
 }
 
-.all-stars li {
+#stars li {
   display: inline-block;
   margin: 10px;
 }
 
-.all-stars li i {
+#stars li i {
   color: #ccc;
+}
+
+#stars li i:hover {
+  color: #fcde7b;
+}
+
+
+/* Selected state */
+.star-selected {
+  color:#FF912C !important;
 }
