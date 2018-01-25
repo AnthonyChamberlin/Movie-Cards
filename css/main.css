@@ -23,10 +23,49 @@ body {
     flex-wrap: wrap;
 }
 
+/* -- Movie Boxes -- */
+
 .movie-box {
-    height: 150px;
+    position: relative;
+    height: 250px;
     flex: 1 0 200px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    margin: 15px;
+    margin: 10px;
+}
+
+.movie-box-left {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 50%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+.movie-box-right {
+  position: absolute;
+  top:0%;
+  right: 0%;
+  width: 50%;
+  height: 100%;
+  border: 1px solid blue;
+}
+
+.movie-box-left li {
+  list-style: none;
+  text-align: center;
+  text-indent: -40px;
+}
+
+.movie-title {
+  text-align: center;
+}
+
+.goodfellas-image {
+  background-image: url('https://static.rogerebert.com/uploads/movie/movie_poster/goodfellas-1990/large_pDTuWp3jRcGbfWn0Ic6XZ0M0DwP.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
 }
